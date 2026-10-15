@@ -40,7 +40,7 @@ with st.form("dose_form"):
     with col1:
         ctdi = st.number_input("CTDIvol (mGy):", min_value=0.0, value=10.0, step=1.0)
     with col2:
-        dlp = st.number_input("DLP (mGy*cm):", min_value=0.0, value=500.0, step10.0)
+        dlp = st.number_input("DLP (mGy*cm):", min_value=0.0, value=500.0, step=10.0)
         
     regio = st.selectbox("Anatomiai regio (k-tenyezo):", list(k_factors.keys()))
     
